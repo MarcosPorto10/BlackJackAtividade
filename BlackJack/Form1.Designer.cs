@@ -56,21 +56,23 @@ namespace BlackJack
             // 
             // btn_jogar_1
             // 
+            this.btn_jogar_1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_jogar_1.Location = new System.Drawing.Point(26, 452);
             this.btn_jogar_1.Name = "btn_jogar_1";
             this.btn_jogar_1.Size = new System.Drawing.Size(110, 29);
             this.btn_jogar_1.TabIndex = 0;
-            this.btn_jogar_1.Text = "Jogar";
+            this.btn_jogar_1.Text = "JOGAR";
             this.btn_jogar_1.UseVisualStyleBackColor = true;
             this.btn_jogar_1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_reiniciar
             // 
+            this.btn_reiniciar.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_reiniciar.Location = new System.Drawing.Point(333, 12);
             this.btn_reiniciar.Name = "btn_reiniciar";
             this.btn_reiniciar.Size = new System.Drawing.Size(120, 28);
             this.btn_reiniciar.TabIndex = 1;
-            this.btn_reiniciar.Text = "Reiniciar";
+            this.btn_reiniciar.Text = "REINICIAR";
             this.btn_reiniciar.UseVisualStyleBackColor = true;
             this.btn_reiniciar.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -97,30 +99,32 @@ namespace BlackJack
             // lbl_legenda
             // 
             this.lbl_legenda.AutoSize = true;
-            this.lbl_legenda.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_legenda.Location = new System.Drawing.Point(363, 154);
+            this.lbl_legenda.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_legenda.Location = new System.Drawing.Point(351, 152);
             this.lbl_legenda.Name = "lbl_legenda";
-            this.lbl_legenda.Size = new System.Drawing.Size(61, 21);
+            this.lbl_legenda.Size = new System.Drawing.Size(75, 21);
             this.lbl_legenda.TabIndex = 4;
-            this.lbl_legenda.Text = "Pontos:";
+            this.lbl_legenda.Text = "PONTOS";
             // 
             // btn_parar_1
             // 
+            this.btn_parar_1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_parar_1.Location = new System.Drawing.Point(162, 452);
             this.btn_parar_1.Name = "btn_parar_1";
             this.btn_parar_1.Size = new System.Drawing.Size(110, 29);
             this.btn_parar_1.TabIndex = 5;
-            this.btn_parar_1.Text = "Parar";
+            this.btn_parar_1.Text = "PARAR";
             this.btn_parar_1.UseVisualStyleBackColor = true;
             this.btn_parar_1.Click += new System.EventHandler(this.btn_parar_1_Click);
             // 
             // btn_parar_2
             // 
+            this.btn_parar_2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_parar_2.Location = new System.Drawing.Point(656, 452);
             this.btn_parar_2.Name = "btn_parar_2";
             this.btn_parar_2.Size = new System.Drawing.Size(110, 29);
             this.btn_parar_2.TabIndex = 8;
-            this.btn_parar_2.Text = "Parar";
+            this.btn_parar_2.Text = "PARAR";
             this.btn_parar_2.UseVisualStyleBackColor = true;
             this.btn_parar_2.Click += new System.EventHandler(this.btn_parar_2_Click);
             // 
@@ -136,11 +140,12 @@ namespace BlackJack
             // 
             // btn_jogar_2
             // 
+            this.btn_jogar_2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_jogar_2.Location = new System.Drawing.Point(520, 452);
             this.btn_jogar_2.Name = "btn_jogar_2";
             this.btn_jogar_2.Size = new System.Drawing.Size(110, 29);
             this.btn_jogar_2.TabIndex = 6;
-            this.btn_jogar_2.Text = "Jogar";
+            this.btn_jogar_2.Text = "JOGAR";
             this.btn_jogar_2.UseVisualStyleBackColor = true;
             this.btn_jogar_2.Click += new System.EventHandler(this.btn_jogar_2_Click);
             // 
@@ -174,24 +179,28 @@ namespace BlackJack
             // 
             // btnMarvel
             // 
+            this.btnMarvel.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMarvel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnMarvel.Location = new System.Drawing.Point(333, 415);
             this.btnMarvel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMarvel.Name = "btnMarvel";
             this.btnMarvel.Size = new System.Drawing.Size(120, 22);
             this.btnMarvel.TabIndex = 12;
-            this.btnMarvel.Text = "cartas marvel";
+            this.btnMarvel.Text = "CARTAS MARVEL";
+            this.btnMarvel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnMarvel.UseVisualStyleBackColor = true;
             this.btnMarvel.Click += new System.EventHandler(this.btnMarvel_Click);
             // 
             // bntTradicional
             // 
             this.bntTradicional.Enabled = false;
+            this.bntTradicional.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bntTradicional.Location = new System.Drawing.Point(333, 452);
             this.bntTradicional.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bntTradicional.Name = "bntTradicional";
             this.bntTradicional.Size = new System.Drawing.Size(120, 22);
             this.bntTradicional.TabIndex = 13;
-            this.bntTradicional.Text = "cartas tradicional";
+            this.bntTradicional.Text = "TRADICIONAIS";
             this.bntTradicional.UseVisualStyleBackColor = true;
             this.bntTradicional.Click += new System.EventHandler(this.bntTradicional_Click);
             // 
