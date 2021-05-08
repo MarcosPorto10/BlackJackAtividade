@@ -328,5 +328,10 @@ namespace BlackJack
             pictureBox3.Visible = true;
             pictureBox4.Visible = true;
         }
+
+        private void Form_jogo_Load(object sender, EventArgs e)
+        {
+
+        }//teste
     }
 }
