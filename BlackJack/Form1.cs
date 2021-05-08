@@ -332,6 +332,6 @@ namespace BlackJack
         private void Form_jogo_Load(object sender, EventArgs e)
         {
 
-        }//teste
+        }
     }
 }
